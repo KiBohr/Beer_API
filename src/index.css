@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-grey: #333333;
+  --color-yellow: #FFCA41;
+}
+
+@font-face {
+  font-family: RobotoSlaps;
+  font-style: normal;
+  font-weight: 200 700;
+  src: url("../public/fonts/RobotoSlab-VariableFont_wght.ttf") format("woff2");
+}
