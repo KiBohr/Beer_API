@@ -1,7 +1,6 @@
 # Beer API
 
-[Screenrecord_Beer_Api.webm](https://github.com/user-attachments/assets/e86c6183-fa13-4d22-9546-8920050836da)
-
+[Screenrecord_Beer_Api.webm](https://github.com/user-attachments/assets/acd38f74-5f53-46d6-bffb-4b7121c78c71)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
