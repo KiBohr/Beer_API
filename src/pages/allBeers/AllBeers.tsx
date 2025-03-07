@@ -15,8 +15,6 @@ export default function AllBeers(){
         fetchData()
     }, [])
 
-    
-    
     return(
         <section className="flex flex-col items-center gap-5 p-20 mx-60 ">
             <h1 className="text-6xl mb-20 uppercase">See all our Beers</h1>

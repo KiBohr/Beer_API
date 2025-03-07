@@ -3,6 +3,7 @@ import Layout from "./layout/Layout"
 import Home from "./pages/home/Home"
 import AllBeers from "./pages/allBeers/AllBeers"
 import BeerDetail from "./pages/beerDetail/BeerDetail"
+import RandomBeer from "./pages/randomBeer/RandomBeer"
 
 function App() {
   const router = createBrowserRouter(
@@ -11,6 +12,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="allbeers" element={<AllBeers/>}/>
         <Route path="/beerdetail/:id" element={<BeerDetail/>}/>
+        <Route path="/randombeer" element={<RandomBeer/>}/>
       </Route>
 
     )

@@ -1,17 +1,11 @@
-import Button from "../button/Button"
-import ProductItem from "../productItem/ProductItem"
+import { Link } from "react-router-dom"
+import { IBlog } from "../../interface/interface"
 
-interface IBlog{
-    img: string,
-    description: string
-
-}
-
-export default function Blog({img,description}:IBlog){
+export default function Blog({img,description,path,buttonText}:IBlog){
     return(
-        <section className="">
+        <section className="flex flex-col">
             <img className="rounded-t-md shadow h-100" src={img} alt="" />
-            <p className="bg-yellow h-10"></p>
+            <Link className="bg-yellow p-2 text-white text-2xl transition ease-in-out hover:text-yellow hover:bg-white" to={path}>{buttonText}</Link>
             <p>{description}</p>
         </section>
     )

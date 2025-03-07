@@ -11,3 +11,15 @@ export interface IProduct {
   expireAt: string;
   __v: number;
 }
+
+export interface IBlog {
+  img: string;
+  description: string;
+  path: string;
+  buttonText: string;
+}
+
+export interface IProps {
+  buttonText: string;
+  product?: IProduct;
+}
